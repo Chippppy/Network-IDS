@@ -299,7 +299,7 @@ class NetworkMonitor:
 if __name__ == "__main__":
     monitor = NetworkMonitor()
     try:
-        monitor.start_monitoring()
+        monitor.start_monitoring(interface="en0")  # Explicitly specify en0 interface
     except KeyboardInterrupt:
         logging.info("Stopping network monitoring")
     except Exception as e:
