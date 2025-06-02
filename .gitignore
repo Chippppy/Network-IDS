@@ -1,0 +1,32 @@
+# Ignore all files in the data directory
+data/*
+
+# Ignore all files in the logs directory
+logs/*
+
+# Ignore all files in the logs directory
+logs/*
+
+# Ignore all log files
+*.log
+
+# Ignore all csv files
+*.csv
+
+# Ignore all json files
+*.json
+
+# Ignore all venv directories
+venv/*
+
+# Ignore all __pycache__ directories
+__pycache__/*
+
+# Ignore all dev directories
+.vscode/*
+
+# Ignore all pycharm directories
+.idea/*
+
+# Ignore all pycharm directories
+.pycharm/*
